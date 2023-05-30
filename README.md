@@ -34,6 +34,10 @@ Further, I added tests to check if the starting vertex provided for the Dijkstra
 is empty, I also think my program will catch that. I need to add more edge cases, including chekcing if any Verterices loop back to their selves. This would also 
 effect the validity of the algorithm. 
 
+CreateGraphAndTest.cc: creates graph and tests graph built. 
+graph.h: Graph class. Dijkstra implementation here. 
+FindPaths.cc : using Dijkstra retruns shortest path.
+
 Testing Files: 
 Graph1.txt and Graph2.txt to create graph. 
 AdjacencyQueries1.txt and AdjacencyQueries2.txt to test adjacent nodes.
