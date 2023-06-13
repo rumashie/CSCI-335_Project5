@@ -1,5 +1,4 @@
-# CSCI-335_Project5
-Graph Algorithms
+## Graph Algorithms
 # Assignment-5-Code
 
 ReadMe Assignment Reflection:
