@@ -1,5 +1,4 @@
-# Graph Algorithms
-## Assignment 5 Code
+# Graph Algorithms Project 5 Code
 
 This project was part of the *Software Analysis and Design III* (CSCI 335) course at Hunter College. <br>
 It involved practicing data structures (heaps) and algorithms (Dijkstra's algorithm) using object-oriented programming (OOP).
