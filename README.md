@@ -21,7 +21,7 @@ A visited boolean to keep track if Vertex was visited and a vector of integers t
 I also added a previous_vertex member to keep track of the individual vertices along the shortest path. 
 
 One of the bugs I encountered was an infinite loop in the Dijkstra function. The while(!heap is empty ) loop went on forever. 
-It was because, I was using intergers to represent the Vertices across files and functions. Then I would use a helper fucntion, getVertex(num)
+It was because I used intergers to represent the Vertices across files and functions. Then I would use a helper fucntion, getVertex(num)
 to get the actual Vertex Object in the Graph associated with that number. However, I wasn't using the actual vertex in the graph I was created a 
 new one and setting equal to the vertex in the graph. So this led to errors. I changed the function so it returns, a l-value reference:
 Vertex & getVertex(num). This way when it returns the Vertices in the graph it returns the Vertex itself. 
@@ -31,6 +31,7 @@ Further, I added tests to check if the starting vertex provided for the Dijkstra
 is empty, I also think my program will catch that. I need to add more edge cases, including chekcing if any Verterices loop back to their selves. This would also 
 effect the validity of the algorithm. 
 
+Summary:
 CreateGraphAndTest.cc: creates graph and tests graph built. 
 graph.h: Graph class. Dijkstra implementation here. 
 FindPaths.cc : using Dijkstra retruns shortest path.
