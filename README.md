@@ -5,6 +5,7 @@ It involved practicing data structures (heaps) and algorithms (Dijkstra's algori
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+### Summary:
 For this project we had to represent a graph using an adjacency list.
 I created a Vertex class and a Graph class. Vertex objects have an element, and 
 a vector of pairs<int, double>. The vector of paris is the Vertex's adjacency's list, where
