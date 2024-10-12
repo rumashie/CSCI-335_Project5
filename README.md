@@ -4,6 +4,7 @@
 This project was part of the *Software Analysis and Design III* (CSCI 335) course at Hunter College. <br>
 It involved practicing data structures (heaps) and algorithms (Dijkstra's algorithm) using object-oriented programming (OOP).
 
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 For this project we had to represent a graph using an adjacency list.
 I created a Vertex class and a Graph class. Vertex objects have an element, and 
